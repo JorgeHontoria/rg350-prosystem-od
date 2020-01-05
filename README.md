@@ -57,13 +57,21 @@ Put PrOOSystem.OPK in your APPS directory. Put your .A78 games where you want.
 Use "Interesting game" from Dingoo menu and choose your .A78 file, the emu will launch with the game ;)
 
 Controls (both Player 1 and 2) :
+
         * Direction pad and A / B : Atari pad and button 1 / 2
+
         * START is the same that the PAUSE button
+
         * SELECT is the same that the SELECT button
+
         * X is the same than the RESET button
+
         * Y is the same than the RESET button
+
         * R is the same than the Left Difficulty button
+
         * L is the same than the Right Difficulty button
+
         
 You can also click on START + SELECT to enter the menu.
 
@@ -89,3 +97,26 @@ Alekmaul
 alekmaul@portabledev.com
 http://www.portabledev.com
 
+
+# COMPILATION
+
+  It has been developped under Linux using gcc with GP2XSDK. 
+  
+  To rebuild the homebrew run the ./build_gcw0.sh in the src archive.
+
+# COMPILATION FOR GWC0/RG350 on LINUX
+  Developped under Linux Ubuntu / Visual Studio Code / GCC / GCW0 toolchain
+  http://www.gcw-zero.com/develop
+  
+    Compile:
+        ./build_gcw0.sh
+
+    Clean:
+        ./clean_gcw0.sh
+
+    Release: 
+        ./build_gcw0.sh create release file rg350-prosystem-od.opk on ./build/ folder
+
+  Enjoy,
+  
+         Jorge Hontoria
